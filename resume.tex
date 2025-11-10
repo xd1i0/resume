@@ -1,0 +1,232 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+    \item\small{
+            {#1 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+    \begin{center}
+        \textbf{\Huge \scshape Daniel Schatz} \\ \vspace{1pt}
+        \small +49-176-56117029 $|$ \href{mailto:mail@daniel-schatz.com}{\underline{mail@daniel-schatz.com}} $|$
+        \href{https://linkedin.com/in/dnl-schatz}{\underline{linkedin.com/in/dnl-schatz}} $|$
+        \href{https://github.com/xd1i0}{\underline{github.com/xd1i0}}
+    \end{center}
+
+
+%-----------EDUCATION-----------
+    \section{EDUCATION}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+    {NORDAKADEMIE University of Applied Studies}{Elmshorn, Germany}
+    {BSc Software Engineering} {2024 on}
+    \resumeItemListStart
+    \resumeItem{Dual Study programme, integrating academic studies with professional placements at various Lufthansa Group companies under coordination of Lufthgansa Industry Solutions AS GmbH}
+    \resumeItem{Specialisation: IT-Security}
+    \resumeItem{current GPA: 1.7}
+    \resumeItemListEnd
+    \resumeSubheading
+    {Lessing Gymnasium}{Norderstedt, Germany}
+    {Allgemeine Hochschulreife (German A-Level equivalent)}{2016 -- 2024}
+    \resumeItemListStart
+    \resumeItem{Spezialisation: STEM / Biology}
+    \resumeItem{Final Grade: 1.8 (Germany)}
+    \resumeItem{Pharmazie-Abi-Preis (Exceptional achievements in STEM)}
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+    \section{WORK EXPERIENCE}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Dual Study Student}{2024 on}
+    {Lufthansa Group}{Hamburg, Germany}
+    \resumeItemListStart
+    \resumeItem{As part of my integrated degree, I am completing practical placements in key technology and IT departments}
+    \resumeItem{Working in intercultural, cross-functional teams with global IT-Architectures and software developement}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Part-time job}{2022 -- 2024}
+    {Public library of Norderstedt}{Norderstedt, Germany}
+
+    \resumeSubheading
+    {Intern}{Autumn 2022}
+    {Lufthansa Industry Solutions AS GmbH}{Norderstedt, Germany}
+    \resumeItemListStart
+    \resumeItem{Development of a web application for measuring resource consumption in database queries as part of a Green IT project}
+    \resumeItemListEnd
+
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubHeadingListEnd
+
+    %-----------EXTRACURRICULAR ACTIVITES-----------
+    \section{EXTRACURRICULAR ACTIVITES}
+    \resumeSubHeadingListStart
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+    {InformatiCup 1st Place}{2025}
+    {Gesellschaft für Informatik]}{Potsdam, Germany}
+    \resumeItemListStart
+    \resumeItem{Nationwide computer science competition, 4 finalists out of 30 teams}
+    \resumeItem{Collaboration in a team of four students}
+    \resumeItem{Open-source file explorer (Rust): \href{https://fileexplorer.app}{\underline{fileexplorer.app}}}
+    \resumeItem{Investment of approximately 500 hours alongside studies and employment}
+    \resumeItem{Exceptional jury recognition}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Leading Member of IT Administration (Volunteer)}{2022 -- 2024}
+    {Lessing Gymnasium}{Norderstedt, Germany}
+    \resumeItemListStart
+    \resumeItem{Setup and maintenance of school network systems}
+    \resumeItem{Management of school-owned devices, organization of workflows within the working group}
+    \resumeItem{Skills in IT administration, team leadership, and project organization}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Robotics Event (Volunteer)}{2023 -- 2024}
+    {Public Library}{Norderstedt, Germany}
+    \resumeItemListStart
+    \resumeItem{Support for workshops for children and teenager}
+    \resumeItem{Teaching technical fundamentals in programming and promoting interest in STEM subjects}
+    \resumeItem{Supervision and guidance of participants during practical exercises}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+    \section{SKILLS & INTERESTS}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+            \textbf{Languages}{: German (native), English (fluent), Russian (basic)} \\
+            \textbf{Technology}{: Rust, C++, Swift UI, Typescript, Java, SQL, Python} \\
+            \textbf{Societies}{: Gesellschaft für Informatik, Nordakademiker, TSC Astoria} \\
+            \textbf{Interests}{: Desing, Piano, Painting, Software-Projects, Ballroom Dancing}
+        }}
+    \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
